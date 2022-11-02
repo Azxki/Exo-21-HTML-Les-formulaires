@@ -1,74 +1,74 @@
-    <!DOCTYPE html>
-    <html lang="en" xmlns="http://www.w3.org/1999/html">
-    <head>
-        <meta charset="UTF-8">
-        <title>Formulaire</title>
-    </head>
-    <body>
-    <form action="index.html" method="post">
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+</head>
+<body>
+<form action="index.html" method="post">
+    <div>
+        <label for="name">Nom d'utilisateur</label>
+        <input type="text" id="name" name="user_name" required></input>
+    </div>
+    <div>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="pass" required></input>
+    </div>
+    <div>
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" required></input>
+    </div>
+    <div>
+        <label for="color">Color</label>
+        <input type="color" id="color" name="color" required></input>
+    </div>
+    <fieldset>
+        <legend>Choisis Ton Option :</legend>
         <div>
-            <label for="name">Nom d'utilisateur</label>
-            <input type="text" id="name" name="user_name" required></input>
+            <label for="option">Option</label>
+            <select name="option" id="option">
+                <option value="male">male</option>
+                <option value="male">male</option>
+                <option value="male">male</option>
+                <option value="male">male</option>
+                <option value="male">male</option>
+                <option value="male">male</option>
+                <option value="male">male</option>
+                <option value="male">male</option>
+                <option value="male">male</option>
+                <option value="male">male</option>
+            </select>
         </div>
-        <div>
-            <label for="pass">Password</label>
-            <input type="password" id="pass" name="pass" required></input>
-        </div>
-        <div>
-            <label for="date">Date</label>
-            <input type="date" id="date" name="date" required></input>
-        </div>
-        <div>
-            <label for="color">Color</label>
-            <input type="color" id="color" name="color" required></input>
-        </div>
+    </fieldset>
+    <div>
+        <label for="recherche">Recherche :</label>
+        <input type="search" id="recherche" name="recherche" required></input>
+    </div>
+    <div>
         <fieldset>
-            <legend>Choisis Ton Option :</legend>
-            <div>
-                <label for="option">Option</label>
-                <select name="option" id="option">
-                    <option value="male">male</option>
-                    <option value="male">male</option>
-                    <option value="male">male</option>
-                    <option value="male">male</option>
-                    <option value="male">male</option>
-                    <option value="male">male</option>
-                    <option value="male">male</option>
-                    <option value="male">male</option>
-                    <option value="male">male</option>
-                    <option value="male">male</option>
-                </select>
-            </div>
-        </fieldset>
+            <legend>Choisis Ta Radio :</legend>
+            <label for="radio">Radio :</label>
+            <input type="radio" id="radio" name="radio" value="1">RFM</input>
+            <input type="radio" id="radio" name="radio" value="2">FUN</input>
+            <input type="radio" id="radio" name="radio" value="3">NRJ</input>
+    </div>
+    </fieldset>
+    <fieldset>
+        <legend>Choisis Ta Checkbox :</legend>
         <div>
-            <label for="recherche">Recherche :</label>
-            <input type="search" id="recherche" name="recherche" required></input>
+            <label for="checkbox">Check 1</label>
+            <input type="checkbox" id="checkbox" name="box" required></input>
+            <label for="checkbox">Check 2</label>
+            <input type="checkbox" id="checkbox" name="box" required></input>
+            <label for="checkbox">Check 3</label>
+            <input type="checkbox" id="checkbox" name="box" required></input>
+            <label for="checkbox">Check 4</label>
+            <input type="checkbox" id="checkbox" name="box" required></input>
         </div>
-        <div>
-            <fieldset>
-                <legend>Choisis Ta Radio :</legend>
-                <label for="radio">Radio :</label>
-                <input type="radio" id="radio" name="radio" value="1">RFM</input>
-                <input type="radio" id="radio" name="radio" value="2">FUN</input>
-                <input type="radio" id="radio" name="radio" value="3">NRJ</input>
-        </div>
-        </fieldset>
-        <fieldset>
-            <legend>Choisis Ta Checkbox :</legend>
-            <div>
-                <label for="checkbox">Check 1</label>
-                <input type="checkbox" id="checkbox" name="box" required></input>
-                <label for="checkbox">Check 2</label>
-                <input type="checkbox" id="checkbox" name="box" required></input>
-                <label for="checkbox">Check 3</label>
-                <input type="checkbox" id="checkbox" name="box" required></input>
-                <label for="checkbox">Check 4</label>
-                <input type="checkbox" id="checkbox" name="box" required></input>
-            </div>
-        </fieldset>
-        <button>
-            <a href="mailto:cococoursan@mail.fr">Envoyez !</a>
-        </button>
-    </form>
-    </body>
-    </html>
+    </fieldset>
+    <button>
+        <a href="mailto:cococoursan@mail.fr">Envoyez !</a>
+    </button>
+</form>
+</body>
+</html>
